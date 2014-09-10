@@ -1,0 +1,4 @@
+[submodule "themes/bootstrap"]
+	path = themes/bootstrap
+	url = https://github.com/pixelcog/vanilla-bootstrap.git
+	branch = arkowl-theme
