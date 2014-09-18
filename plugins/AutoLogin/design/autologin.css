@@ -1,0 +1,17 @@
+
+body.Entry {
+  padding-top: 2em;
+}
+
+body.Entry .container, .Trace {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+#Connect-Wait {
+  text-align: center;
+}
+
+.Hidden {
+  display: none;
+}
