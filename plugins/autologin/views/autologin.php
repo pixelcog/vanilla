@@ -14,7 +14,7 @@
 
   <div id="Connect-Wait" class="Hidden">
     <h1><?php echo T('Please wait...'); ?></h1>
-    <img src="<?php echo Asset('plugins/AutoLogin/ajax_loader_gray_128.gif'); ?>" width="64" height="64" />
+    <img src="<?php echo Asset('plugins/autologin/ajax_loader_gray_128.gif'); ?>" width="64" height="64" />
   </div>
 
   <?php echo $this->Form->Open(array('id' => 'Form_AutoLogin-Connect')), $this->Form->Errors(), $this->Form->Close(); ?>

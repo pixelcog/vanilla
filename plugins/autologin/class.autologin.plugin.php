@@ -46,9 +46,9 @@ class AutoLoginPlugin extends Gdn_Plugin {
     $Sender->Form->AddHidden('Target', $Target);
 
     $Sender->MasterView = 'empty';
-    $Sender->AddCssFile('autologin.css', 'plugins/AutoLogin');
-    $Sender->AddJsFile('autologin.js', 'plugins/AutoLogin');
-    $Sender->Render('autologin', '', 'plugins/AutoLogin');
+    $Sender->AddCssFile('autologin.css', 'plugins/autologin');
+    $Sender->AddJsFile('autologin.js', 'plugins/autologin');
+    $Sender->Render('autologin', '', 'plugins/autologin');
     die();
   }
 
